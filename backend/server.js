@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // database uri from mongoDB website,have to set ATLAS envir var
-const uri = process.env.ATLAS_URI;
+const uri = "mongodb+srv://mean123:mean123@cluster0-dzp1h.mongodb.net/test?retryWrites=true&w=majority/";
 // start connection
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true ,useCreateIndex: true });
 const connection = mongoose.connection;
