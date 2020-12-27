@@ -11,4 +11,4 @@ Guide to download and run:
 6. while that is starting up, open another terminal and cd to the backend file within the repo called "backend"
 7. run "node server", this starts the backend  <br/><br /> 
 
-8. it should now be up and running
+it should now be up and running
